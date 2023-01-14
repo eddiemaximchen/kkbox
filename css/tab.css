@@ -1,0 +1,50 @@
+body {font-family: Arial;}
+
+/* Style the tab */
+.activity {
+	box-sizing:border-box;
+	max-width: 960px;
+	margin: 0 auto 10px auto;
+	padding:15px 30px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.activity button {
+	box-sizing:border-box;
+	max-width: 960px;
+	margin: 0 auto 10px auto;
+	padding:15px 30px;
+  background-color: inherit;
+  /* float: auto; */
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.activity button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.activity button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  box-sizing:border-box;
+	max-width: 960px;
+	margin: 0 auto 10px auto;
+	padding:15px 30px;
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}

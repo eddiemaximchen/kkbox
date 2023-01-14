@@ -1,0 +1,43 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "微軟正黑體", "細明體", sans-serif;
+	background-image: url(../images/body-bg.png);
+}
+
+header{
+	box-sizing:border-box;
+	max-width: 960px;
+	margin: 0 auto 10px auto;
+	padding:15px 30px;
+	background-color: #23628f;
+	border: #dadada 1px solid;
+	border-radius: 0 0 10px 10px;
+	color: #fff;
+	font-size: 30px;
+	text-align: left;
+}
+footer{
+	box-sizing:border-box;
+	max-width: 960px;
+	margin: 0 auto 10px auto;
+	padding:15px 30px;
+	background-color: #23628f;
+	border: #dadada 1px solid;
+	border-radius: 0 0 10px 10px;
+	color: #fff;
+	font-size: 20px;
+	text-align: right;
+}
+select{
+	margin-left: 300px;
+	font-size:30px;
+}
+
+.add {
+	position: absolute;
+	   top: 320px;
+	  left:1220px;
+}
