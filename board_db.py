@@ -44,13 +44,13 @@ def get_charts():
         "host": "1ocalhost",
         "port": 3306,
         "user": "root",
-        "password": "Tt-143085",
+        "password": "123456",
         "db": "kkbox",
         "charset": "utf8"
     }
     conn = pymysql.connect(host='localhost',
                         user='root',
-                        password='Tt-143085',
+                        password='123456',
                         database='kkbox',
                         charset='utf8',
                         cursorclass=pymysql.cursors.DictCursor
