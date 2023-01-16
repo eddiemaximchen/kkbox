@@ -66,6 +66,7 @@ def get_charts():
                 
         # 儲存變更
         conn.commit()
-get_charts()
+if __name__=="__main__":
+        get_charts()
 
 # 資料庫參數設定
