@@ -14,6 +14,7 @@ set up database: import create_table.sql import hits.sql to demo ranking functio
 ```
 run HTML.py ==> it will create an website page named index.html.
 I use javascript to create interact function. 
+```
 # function list
 ## 1.list to songs with or without selecting a board.
 ## 2.swap page in song tab.
