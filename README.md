@@ -10,4 +10,11 @@ C. If you are in windows environment: download workbench for client if you are i
 ```
 set up database: import create_table.sql import hits.sql to demo ranking function
 ```
-run HTML.py
+run HTML.py ==> it will create an website page named index.html.
+I use javascript to create interact function. 
+#function list
+##1.list to songs with or without selecting a board.
+##2.swap page in song tab.
+##3.watch youtube video and listen songs in song tab.
+##4.use sql script to demo ranking
+##5.add songs to the playlist and remove songs from the playlist. 
