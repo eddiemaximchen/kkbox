@@ -1,5 +1,5 @@
-# kkbox
-use kkbox open api to create a client-server website
+# kkbox openAPI demo
+## use kkbox open api to create a client-server website
 get kkbox access token 
 from https://docs-zhtw.kkbox.codes/#overview--step-2-%E7%8D%B2%E5%8F%96-access-token
 set up mysql server if you use linux 
