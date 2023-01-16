@@ -89,4 +89,5 @@ def get_charts():
     result = response.json()["data"]                                
     for item in result:                                            
         get_charts_tracks(item["id"])
-get_charts()
+if __name__=="__main__":
+    get_charts()
