@@ -8,6 +8,6 @@ A. create root and password:https://blog.knoldus.com/how-to-change-mysql-root-pa
 B. create password login method:https://www.databasestar.com/access-denied-for-user-root-at-localhost/
 C. If you are in windows environment: download workbench for client if you are in linux environment: dowload HeidiSQL
 ```
-set up database:import create_table.sql import hits.sql to demo ranking function
+set up database: import create_table.sql import hits.sql to demo ranking function
 ```
 run HTML.py
